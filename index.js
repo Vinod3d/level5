@@ -7,7 +7,7 @@ const app = express();
 const Port = process.env.PORT || 3000;
 
 app.get("/",(req,res)=>{
-    res.send("Hello from docker");
+    res.send("Hello from aws");
 })
 
 app.listen(Port,()=>{
